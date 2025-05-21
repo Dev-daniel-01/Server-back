@@ -6,10 +6,12 @@ import express from 'express'
 
 const app = express();
 
+
 //defini as regras do servidor
 //mio de comunicação é um json
 
 app.use(express.json());
+
 
 //definir como os dados seram interpretados
 
